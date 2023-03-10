@@ -1,11 +1,16 @@
 import './App.css'
+import Inicio from './pages/Inicio'
+
+// colors
+// ff97d9
+// e5b3fe
 
 function App() {
 
   return (
-    <div className="App">
-      <h1>Hola Yadis aqui empezamos con la creacion del proyecto mamalon</h1>
-    </div>
+    <>
+      <Inicio />
+    </>
   )
 }
 
